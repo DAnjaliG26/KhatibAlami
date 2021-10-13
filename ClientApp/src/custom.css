@@ -1,0 +1,42 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+#viewDiv {
+    padding-top: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.esri-ui-top-right {
+    top: 50px;
+    right: 0;
+}
+
+.esri-view .esri-view-surface {
+    position: inherit;
+    top: 0;
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+}
+.esri-view .esri-view-root {
+    position: inherit;
+   display: inline-block
+}
+.esri-view-surface{
+
+    display:inherit
+}
+
